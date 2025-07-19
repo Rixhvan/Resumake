@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; /* Light gray for a soft background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container */
+#resume-form {
+    background-color: #68bcbc; /* Solid white background for form */
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    border: 1px solid #0f7071; /* Blue border for pop */
+}
+
+#resume-form h1 {
+    text-align: center;
+    color: #00796b; /* Teal color for the header */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: #e8f5e9; /* Light green for input fields */
+}
+
+/* Button Styles */
+button {
+    background-color: #0b6d6d; /* Blue button color */
+    color: #0b6d6d;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0b6d6d; /* Darker blue on hover */
+}
+
+/* Resume Template */
+#resume-template {
+    display: none;
+    background-color: #71cdc7; /* Solid white background */
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #0f8583; /* Accent border color */
+}
+
+/* Profile Picture Styling */
+#profile-pic, #profilepicT {
+    border: 2px solid #00050a;
+    width: 132px;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+/* Experience and Education Fields */
+.experienceField, .academicField {
+    margin-top: 10px;
+    background-color: #e0f2f1; /* Soft teal background */
+    border: 1px solid #0b6d6d;
+    border-radius: 4px;
+}
+
+/* Template Styling */
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h2 {
+    color: #0b6d6d; /* Accent color for section headers */
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+    
+    #resume-form {
+        display: none;
+    }
+    
+    #resume-template {
+        display: block;
+        width: 100%;
+        box-shadow: none;
+        margin: 0;
+    }
+
+    #profilepicT {
+        width: 132px;
+        height: 170px;
+    }
+}
