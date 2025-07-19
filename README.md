@@ -13,7 +13,7 @@ A simple and elegant resume builder that helps you quickly create and download a
 
 ## 🛠 Built With
 
-- HTML5
+- HTML
 - CSS
 - JavaScript
 - Bootstrap5
@@ -24,4 +24,4 @@ A simple and elegant resume builder that helps you quickly create and download a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/resumake.git
+git clone https://github.com/Rixhvan/resumake.git
